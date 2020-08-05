@@ -25,7 +25,7 @@ export class CartComponent implements OnInit {
     this.items = this.cartService.getItems();
   }
   
-  onSubmit(customerData) {
+  onSubmit(customerData) {2222
     // Process checkout data here
     this.items = this.cartService.clearCart();
     this.checkoutForm.reset();
